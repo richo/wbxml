@@ -1,7 +1,7 @@
 require 'wbxml/version'
 
-AUTHOR = 'Clifford Heath'  # can also be an array of Authors
-EMAIL = "cjheath@rubyforge.org"
+AUTHOR = ['Clifford Heath', 'Rich Healey']  # can also be an array of Authors
+EMAIL = "richo@psych0tik.net"
 DESCRIPTION = "Wrapper for wbxml2, a WAP<->XML converter"
 GEM_NAME = 'wbxml' # what ppl will type to install your gem
 RUBYFORGE_PROJECT = 'wbxml' # The unix name for your project
