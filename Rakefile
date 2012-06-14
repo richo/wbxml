@@ -1,5 +1,5 @@
-require 'config/requirements'
-require 'config/hoe' # setup Hoe + all gem configuration
+require './config/requirements'
+require './config/hoe' # setup Hoe + all gem configuration
 require 'fileutils'
 
 Dir['tasks/**/*.rake'].each { |rake| load rake }
